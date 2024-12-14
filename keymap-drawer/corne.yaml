@@ -39,15 +39,15 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:keyboard-esc$$
-  - $$mdi:apple-keyboard-control$$
-  - NUMBER
+  - {t: \, s: '|'}
+  - MUTE
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:backspace$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
-  - SYMBOL
-  - RIGHT GUI
+  - {t: '$$mdi:keyboard-tab$$', h: SYMBOL}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: RIGHT GUI}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -113,11 +113,11 @@ layers:
   - )
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: BT DISC, h: '0'}
-  - {t: BT DISC, h: '1'}
-  - {t: BT DISC, h: '2'}
-  - {t: BT DISC, h: '3'}
-  - {t: BT DISC, h: '4'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '-', s: _}
   - {t: '=', s: +}
